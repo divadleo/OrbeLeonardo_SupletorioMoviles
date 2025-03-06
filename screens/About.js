@@ -40,14 +40,14 @@ const About = () => {
           shouldPlay={true} // Reproducir automáticamente
           isMuted={true} // Silenciar el video
         />
-        <Text style={styles.profileName}>@LuisLDA</Text>
+        <Text style={styles.profileName}>@david.le0</Text>
       </View>
 
       {/* Sección "Sobre mí" */}
       <View style={styles.section}>
         <Text style={styles.sectionTitle}>Sobre mí</Text>
         <Text style={styles.sectionText}>
-          Soy un Leonardo tratando de sacar 20 en el supletorio de Moviles.
+          Soy un Leonardo tratando de sacar 20 en el supletorio de Móviles.
         </Text>
       </View>
 
@@ -68,7 +68,7 @@ const About = () => {
           <Ionicons name="logo-github" size={24} color="black" />
           <Text
             style={styles.contactLink}
-            onPress={() => Linking.openURL("https://github.com/LuisLDA")}
+            onPress={() => Linking.openURL("https://github.com/")}
           >
             GitHub
           </Text>
@@ -78,7 +78,7 @@ const About = () => {
           <Ionicons name="logo-linkedin" size={24} color="blue" />
           <Text
             style={styles.contactLink}
-            onPress={() => Linking.openURL("https://linkedin.com/in/LuisLDA")}
+            onPress={() => Linking.openURL("https://linkedin.com/")}
           >
             Linkedin
           </Text>
